@@ -31,13 +31,16 @@ jobs:
 
       
       - name: Terraform Init
+        working-directory: "Environment/Dev/Parent module"
         run: terraform init
 
     
       - name: Terraform Plan
+        working-directory: "Environment/Dev/Parent module"
         run: terraform plan
 
       
       - name: Terraform Apply
+        working-directory: "Environment/Dev/Parent module"
         run: terraform apply -auto-approve
         
