@@ -1,4 +1,4 @@
-variable "rgs" {}
+variable "rg" {}
 variable "vnets" {}
 variable "subnets" {}
 variable "bastions" {}
