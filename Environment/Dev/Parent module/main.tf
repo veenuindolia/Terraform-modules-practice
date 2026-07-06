@@ -1,7 +1,7 @@
 
 module "rg" {
   source = "../Child module/azurerm_resource_group"
-  rgs    = var.rg
+  rg    = var.rg
 }
 
 module "vnet" {
